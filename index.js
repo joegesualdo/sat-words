@@ -8,7 +8,7 @@ var SATWords = {
 function getWords(callback){
   words = []
   var rl = require('readline').createInterface({
-    input: require('fs').createReadStream('word-list.txt')
+    input: require('fs').createReadStream(__dirname + '/word-list.txt')
   });
 
   rl.on('line', function(line) {

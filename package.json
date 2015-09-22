@@ -1,6 +1,6 @@
 {
   "name": "sat-words",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SAT Words",
   "main": "index.js",
   "scripts": {
