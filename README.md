@@ -16,7 +16,8 @@ SATWords.getWords(function(words){
 ```
 
 ## API
-### .getWords(callback)
+### `getWords(callback)`
+
 ```javascript
 var SATWords = require('sat-words')
 
@@ -27,3 +28,6 @@ SATWords.getWords(function(words){
 
 ## Credit
 > Word list is from [freevocabulary.com](http://www.freevocabulary.com/)
+
+## License
+MIT © Joe Gesualdo
